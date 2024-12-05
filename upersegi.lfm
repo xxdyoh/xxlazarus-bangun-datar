@@ -1,0 +1,109 @@
+object fPersegi: TfPersegi
+  Left = 574
+  Height = 245
+  Top = 152
+  Width = 227
+  Caption = 'Latihan 10 - Persegi'
+  ClientHeight = 245
+  ClientWidth = 227
+  OnShow = FormShow
+  LCLVersion = '1.4.4.0'
+  object Label1: TLabel
+    Left = 48
+    Height = 19
+    Top = 16
+    Width = 122
+    Caption = 'Latihan 10 - Persegi'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 64
+    Width = 17
+    Caption = 'Sisi'
+    ParentColor = False
+  end
+  object ebSisi: TEdit
+    Left = 72
+    Height = 23
+    Top = 56
+    Width = 115
+    TabOrder = 0
+  end
+  object btnHitung: TButton
+    Left = 32
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = 'Hitung'
+    OnClick = btnHitungClick
+    TabOrder = 1
+  end
+  object btnHapus: TButton
+    Left = 120
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = 'Hapus'
+    OnClick = btnHapusClick
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 15
+    Top = 176
+    Width = 32
+    Caption = 'Luas :'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 32
+    Height = 15
+    Top = 144
+    Width = 47
+    Caption = 'Keliling :'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object ebKeliling: TEdit
+    Left = 88
+    Height = 23
+    Top = 136
+    Width = 107
+    TabOrder = 3
+  end
+  object ebLuas: TEdit
+    Left = 88
+    Height = 23
+    Top = 168
+    Width = 107
+    TabOrder = 4
+  end
+  object btnKembali: TButton
+    Left = 120
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = 'Kembali'
+    OnClick = btnKembaliClick
+    TabOrder = 5
+  end
+end
